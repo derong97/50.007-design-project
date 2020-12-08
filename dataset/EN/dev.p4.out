@@ -10257,11 +10257,11 @@ rose B-VP
 % I-NP
 to B-PP
 $ B-NP
-7.73 B-NP
+7.73 I-NP
 billion I-NP
 from B-PP
 $ B-NP
-6.94 I-NP
+6.94 B-NP
 billion I-NP
 . O
 
@@ -13232,14 +13232,14 @@ neighborhoods B-NP
 . O
 
 Investor B-NP
-Asher I-NP
+Asher B-NP
 Edelman I-NP
 increased B-VP
 his B-NP
 stake I-NP
 in B-PP
 Intelogic B-NP
-Trace B-NP
+Trace I-NP
 Inc. I-NP
 and O
 cleared B-VP
@@ -14499,7 +14499,7 @@ East B-NP
 
 The B-NP
 $ I-NP
-11,775,000 I-NP
+11,775,000 B-ADVP
 of B-PP
 term B-NP
 bonds I-NP
@@ -14508,7 +14508,7 @@ due B-PP
 and O
 the B-NP
 $ I-NP
-13,865,000 B-ADVP
+13,865,000 I-NP
 of B-PP
 term B-NP
 bonds I-NP
@@ -17470,7 +17470,7 @@ globulin I-PP
 , O
 which B-NP
 will B-VP
-diminish B-PRT
+diminish I-VP
 the B-NP
 flu-like B-CONJP
 symptoms I-CONJP
@@ -17482,7 +17482,7 @@ in B-PP
 anyone B-NP
 who B-NP
 has B-VP
-contracted I-VP
+contracted B-PRT
 the B-NP
 disease I-NP
 , O
@@ -17773,7 +17773,7 @@ in B-PP
 existing B-NP
 plants I-NP
 producing I-NP
-hot-dipped B-NP
+hot-dipped I-NP
 galvanized I-NP
 steel I-NP
 , O
@@ -17783,7 +17783,7 @@ marks I-NP
 the B-NP
 first I-NP
 so-called I-NP
-greenfield I-NP
+greenfield B-NP
 plant I-NP
 for B-PP
 such B-NP
@@ -20661,13 +20661,13 @@ lightened I-UCP
 up B-NP
 on B-PP
 stocks B-NP
-, O
+, I-NP
 `` O
 have B-VP
 just I-VP
 hurt I-VP
 themselves B-NP
-, I-NP
+, O
 '' O
 he B-NP
 says B-VP
@@ -20843,7 +20843,7 @@ increased B-VP
 $ B-NP
 2.53 I-NP
 billion I-NP
-to B-PP
+to B-VP
 $ B-NP
 116.56 I-NP
 billion I-NP
@@ -20856,7 +20856,7 @@ increased B-VP
 $ B-NP
 1.3 I-NP
 billion I-NP
-to B-VP
+to B-PP
 $ B-NP
 154.05 I-NP
 billion I-NP
@@ -24656,7 +24656,7 @@ Corp. I-NP
 up B-ADVP
 $ B-NP
 1.25 I-NP
-to B-PP
+to B-VP
 $ B-NP
 58 I-NP
 , O
@@ -24667,7 +24667,7 @@ Inc. I-NP
 up B-ADVP
 $ B-NP
 3 I-NP
-to B-VP
+to B-PP
 $ B-NP
 43.75 B-UCP
 , I-UCP
