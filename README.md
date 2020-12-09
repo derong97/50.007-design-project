@@ -8,6 +8,12 @@ Authors:
 - Tiong Shan Kai
 - Koh Ting Yew
 
+
+
+The predictions from each of the parts 2 to 5 are all located in the `dataset` directory. 
+
+For a more in-depth description and breakdown of our implementation for this project, you may refer to `Report.pdf`.
+
 # Instructions to run the code
 
 
@@ -54,4 +60,12 @@ python3 EvalResult.py "../dataset/<dataset-name>/dev.out" "../dataset/<dataset-n
 `<dataset-name>` is any of the following: `EN`, `SN`, `CN`. 
 
 `<prediction-output>` is any of the following: `dev.p2.out`, `dev.p3.out`, `dev.p4.out`, `dev.p5.out`.
+
+<br>
+
+<hr>
+
+
+
+
 
