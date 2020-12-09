@@ -4,9 +4,9 @@ Designing sequence labelling model for informal texts using Hidden Markov Model 
 
 Authors:
 
-- Loh De Rong
-- Tiong Shan Kai
-- Koh Ting Yew
+- Loh De Rong (1003557)
+- Koh Ting Yew (1003339)
+- Tiong Shan Kai (1003469)
 
 
 
@@ -51,6 +51,10 @@ edit this shan kai
 ```
 
 ## EvalScript
+
+We have evaluated our prediction outputs for Parts 2 to 4. The evaluation results can be located in our Jupyter notebooks. 
+
+To perform the evaluation yourselves: run the following:
 
 ```bash
 cd EvalScript
