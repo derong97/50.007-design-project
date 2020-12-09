@@ -4,9 +4,9 @@ Designing sequence labelling model for informal texts using Hidden Markov Model 
 
 Authors:
 
-- Loh De Rong (1003557)
-- Koh Ting Yew (1003339)
-- Tiong Shan Kai (1003469)
+- [Loh De Rong](https://github.com/derong97) (1003557)
+- [Koh Ting Yew](https://github.com/ktingyew) (1003339)
+- [Tiong Shan Kai](https://github.com/shankaikai) (1003469)
 
 
 
