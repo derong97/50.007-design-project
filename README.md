@@ -37,7 +37,7 @@ cd part4
 python3 hmm_part4.py EN
 ```
 
-## Part 5 - Design Challenge
+## Part 5 - Design Challenge - edit this shan kai
 
 ```bash
 cd part5
@@ -46,11 +46,12 @@ edit this shan kai
 
 ## EvalScript
 
-```
+```bash
 cd EvalScript
 python3 EvalResult.py "../dataset/<dataset-name>/dev.out" "../dataset/<dataset-name>/<prediction-output>"
 ```
 
-Where `<dataset-name>` is any of the following: `EN`, `SN`, `CN`. 
+`<dataset-name>` is any of the following: `EN`, `SN`, `CN`. 
 
 `<prediction-output>` is any of the following: `dev.p2.out`, `dev.p3.out`, `dev.p4.out`, `dev.p5.out`.
+
