@@ -50,6 +50,8 @@ cd part5
 python3 hmm_part5.py <dataset-name>
 ```
 
+Where `<dataset-name>` is any of the following: `EN`, `SG`, `CN`. 
+
 ## EvalScript
 
 We have evaluated our prediction outputs for Parts 2 to 5. The evaluation results can be located in our Jupyter notebooks. 

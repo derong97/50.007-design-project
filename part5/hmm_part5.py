@@ -179,8 +179,8 @@ def second_order_viterbi(df_emission_matrix, observations, states, df_transition
     for j in range(1, n-1):
         x = proc_sent[j]
             
-        a_b = log(df_transition_matrix.multiply(df_emission_matrix[x], axis = 'columns')) # a(t,u,v) * b(v,x)
-        pis = a_b.add(P[j-1], axis = 'index').astype('float64') # a(t,u,v) * b(v,x) + pi at j-1
+        a_b = log(df_transition_matrix.multiply(df_emission_matrix[x], axis = 'columns')) # log(a(t,u,v) * b(v,x))
+        pis = a_b.add(P[j-1], axis = 'index').astype('float64') # log(a(t,u,v) * b(v,x)) + pi at j-1
         
         for curr_state in states:
             if curr_state == 'STOP':
