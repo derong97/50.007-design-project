@@ -176,7 +176,7 @@ def topk_viterbi(emission_dict, transition_dict, sentence, is_preprocessed, k=3)
     # Pi Table
     P = np.ones( (len(proc_sent), len(all_states), k) ) * -np.inf
     
-    # Backtrace Table
+    # Backpointer Table
     B = [ [ [None] * k for x in all_states ] for y in proc_sent ]
     
     a = lambda u, v: get_transition_params(transition_dict, u, v)
@@ -217,7 +217,7 @@ def topk_viterbi(emission_dict, transition_dict, sentence, is_preprocessed, k=3)
     # top k parent STATES preceding the STOP state. By top k, means top k best scores.
     final_topk_pos = [ all_states[pos // k] for pos in final_topk ]
     
-    # Backtrace
+    # Backtrack
     state_seq = ['STOP']
     
     prev_states = final_topk_pos

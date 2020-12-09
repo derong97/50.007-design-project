@@ -43,16 +43,16 @@ cd part4
 python3 hmm_part4.py EN
 ```
 
-## Part 5 - Design Challenge - edit this shan kai
+## Part 5 - Design Challenge
 
 ```bash
 cd part5
-edit this shan kai
+python3 hmm_part5.py <dataset-name>
 ```
 
 ## EvalScript
 
-We have evaluated our prediction outputs for Parts 2 to 4. The evaluation results can be located in our Jupyter notebooks. 
+We have evaluated our prediction outputs for Parts 2 to 5. The evaluation results can be located in our Jupyter notebooks. 
 
 To perform the evaluation yourselves: run the following:
 

@@ -183,7 +183,7 @@ def viterbi(emission_dict, transition_dict, sentence, is_preprocessed):
 
     # Pi np
     P = np.ones( (len(proc_sent), len(all_states))) * -np.inf
-    # Backtrace np
+    # Backpointer np
     B = [ [ None for x in all_states ] for y in proc_sent ]
     
     # Helper functions for recursive step
@@ -215,7 +215,7 @@ def viterbi(emission_dict, transition_dict, sentence, is_preprocessed):
     previous_scores = P[j-1] + log(transitions)
     last_state = all_states[previous_scores.argmax()]
 
-    # Backtrace
+    # Backtrack
     state_seq = ['STOP'] + [last_state]
     for j in range(n-2, 0, -1):
         curr_state = state_seq[-1]
