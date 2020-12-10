@@ -46,7 +46,7 @@ cd part5
 python3 hmm_part5.py <dataset-name> <optional-type>
 ```
 
-Where `<dataset-name>` is any of the following: `EN`, `SG`, `CN`.
+Where `<dataset-name>` is any of the following: `EN`, `SG`, `CN`. <br>
 Where `<optional-type>` is an optional argument that can be any of the following: `test`, `dev`. The default is set to `dev`.
 
 ## EvalScript
