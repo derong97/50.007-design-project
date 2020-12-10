@@ -220,7 +220,8 @@ if __name__ == "__main__":
 
     type_check = 'dev'
 
-    if len(sys.argv) > 2:
+    # Only EN has test.in
+    if len(sys.argv) > 2 and dataset == 'EN':
         type_check = sys.argv[2]
         if type_check not in ['test', 'dev']:
             print("Third argument must be one of the following: ['test','dev']")
