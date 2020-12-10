@@ -8,7 +8,7 @@ Authors:
 - [Koh Ting Yew](https://github.com/ktingyew) (1003339)
 - [Tiong Shan Kai](https://github.com/shankaikai) (1003469)
 
-The predictions from each of the parts 2 to 5 are all located in the `dataset` directory.
+The predictions from each of the parts 2 to 5 are all located in the `EN`, `SG`, `CN` directory.
 
 For a more in-depth description and breakdown of our implementation for this project, you may refer to `Report.pdf`.
 
