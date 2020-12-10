@@ -43,20 +43,21 @@ python3 hmm_part4.py EN
 
 ```bash
 cd part5
-python3 hmm_part5.py <dataset-name>
+python3 hmm_part5.py <dataset-name> <optional-type>
 ```
 
 Where `<dataset-name>` is any of the following: `EN`, `SG`, `CN`.
+Where `<optional-type>` is an optional argument that can be any of the following: `test`, `dev`. The default is set to `dev`.
 
 ## EvalScript
 
-We have evaluated our prediction outputs for Parts 2 to 5. The evaluation results can be located in our Jupyter notebooks.
+We have evaluated our dev set prediction outputs for Parts 2 to 5. The evaluation results can be located in our Jupyter notebooks.
 
 To perform the evaluation yourselves: run the following:
 
 ```bash
 cd EvalScript
-python3 EvalResult.py "../dataset/<dataset-name>/dev.out" "../dataset/<dataset-name>/<prediction-output>"
+python3 EvalResult.py "../<dataset-name>/dev.out" "../<dataset-name>/<prediction-output>"
 ```
 
 `<dataset-name>` is any of the following: `EN`, `SG`, `CN`.

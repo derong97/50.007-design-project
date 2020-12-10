@@ -211,19 +211,27 @@ def second_order_viterbi(df_emission_matrix, observations, states, df_transition
 if __name__ == "__main__":
     
     if len(sys.argv) < 2:
-        print("Usage: python hmm_part5.py EN")
+        print("Usage: python hmm_part5.py EN <test/dev>")
         exit()
 
     dataset = sys.argv[1]
     if dataset not in ['EN', 'SG', 'CN']:
-        print("Second argument must be one of the following: ['EN', 'SG, 'CN]")
+        print("Second argument must be one of the following: ['EN', 'SG, 'CN']")
         exit()
+
+    type_check = 'dev'
+
+    if len(sys.argv) > 3:
+        type_check = sys.argv[3]
+        if type_check not in ['test', 'dev']:
+            print("Third argument must be one of the following: ['test','dev']")
+            exit()
     
-    print(f"Evaluating on {dataset}.")
+    print(f"Evaluating on {dataset} {type_check}.")
     
-    in_file = f"../dataset/{dataset}/dev.in"
-    train_file = f"../dataset/{dataset}/train"
-    out_file = f"../dataset/{dataset}/dev.p5.out"
+    in_file = f"../{dataset}/{type_check}.in"
+    train_file = f"../{dataset}/train"
+    out_file = f"../{dataset}/{type_check}.p5.out"
     
    # Train
     df_transition_matrix, all_state_pairs, states = train_transition(train_file)

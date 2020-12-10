@@ -268,14 +268,14 @@ if __name__ == "__main__":
 
     dataset = sys.argv[1]
     if dataset not in ['EN', 'SG', 'CN']:
-        print("Second argument must be one of the following: ['EN', 'SG, 'CN]")
+        print("Second argument must be one of the following: ['EN', 'SG, 'CN']")
         exit()
     
     print(f"Evaluating on {dataset}.")
     
-    in_file = f"../dataset/{dataset}/dev.in"
-    train_file = f"../dataset/{dataset}/train"
-    out_file = f"../dataset/{dataset}/dev.p4.out"
+    in_file = f"../{dataset}/dev.in"
+    train_file = f"../{dataset}/train"
+    out_file = f"../{dataset}/dev.p4.out"
     
    # Train
     emission_dict, transition_dict = train(train_file)
