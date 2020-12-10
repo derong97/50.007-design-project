@@ -172,7 +172,7 @@ def second_order_viterbi(df_emission_matrix, observations, states, df_transition
     B = pd.DataFrame(index = all_state_pairs, columns = range(n))
     
     # Initialisation
-    P.loc[("PREVSTART", "START"), 0] = 1
+    P.at[("PREVSTART", "START"), 0] = 1
     
     # Forward Recursive Step
     for j in range(1, n-1):
