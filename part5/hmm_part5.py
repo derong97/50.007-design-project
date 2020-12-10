@@ -7,7 +7,6 @@ import sys
 def train_transition(filename):
     """
     Returns - dataframe with t, u as index and v as columns containing probability of t, u -> v
-    
     """
     with open(filename, encoding="utf8") as f:
         lines = f.readlines()
@@ -221,8 +220,8 @@ if __name__ == "__main__":
 
     type_check = 'dev'
 
-    if len(sys.argv) > 3:
-        type_check = sys.argv[3]
+    if len(sys.argv) > 2:
+        type_check = sys.argv[2]
         if type_check not in ['test', 'dev']:
             print("Third argument must be one of the following: ['test','dev']")
             exit()
